@@ -14,7 +14,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: self-host
+    runs-on: self-hosted
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -28,5 +28,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: run
-        run: python3 .\py.py
+        run: python .\py.py
 
