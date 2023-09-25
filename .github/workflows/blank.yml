@@ -28,5 +28,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: run
-        run: python3 ./py.py
+        run: python3 .\py.py
 
