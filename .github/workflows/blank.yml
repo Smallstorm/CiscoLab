@@ -23,10 +23,6 @@ jobs:
 
 
       # Runs a single command using the runners shell
-      - name: ping
-        run: ip route
-
-      # Runs a single command using the runners shell
       - name: run
         run: python .\py.py
 
