@@ -13,5 +13,6 @@ with open('conf.txt') as f:
 f.close()
 
 print(telnet.read_until(b'#'))
-
+print(telnet.read_until(b'#'))
+print(telnet.read_until(b'#'))
 telnet.close()
