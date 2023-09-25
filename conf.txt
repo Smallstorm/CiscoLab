@@ -1,3 +1,2 @@
 en
 show ip int br
-show run
