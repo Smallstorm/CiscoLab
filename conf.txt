@@ -1,2 +1,2 @@
 en
-show vlan
+show ip int br
